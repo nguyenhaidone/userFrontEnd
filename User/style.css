@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .content{
     position: absolute;
     top: 10%;
@@ -20,4 +23,14 @@
 }
 #wrapper:hover .overlay{
     opacity: 0.5;
+}
+.gotobtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
 }
