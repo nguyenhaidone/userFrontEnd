@@ -56,41 +56,42 @@
                                         height="200px">
                                     <div class="card-body">
                                         <h5 class="card-title">Mazda</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.</p>
+                                        <p class="card-text">Nhà sản xuất ô tô lớn trên thế giới đến từ Nhật Bổn, với
+                                            bao gồm đầy đủ mọi kiểu xe, mọi giá tiền...</p>
                                         <a href="./mazda.html" class="btn btn-primary"
                                             style="background-color: #ffffff; border: 1px solid #000000; color: #000000;">See
                                             More >>></a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 21rem; border: none;">
-                                    <img class="card-img-top" src="./img/honda.jpg" alt="Card image cap" width="21rem"
+                                <!-- <div class="card" style="width: 21rem; border: none;">
+                                    <img class="card-img-top" src="./img/lambor.jpg" alt="Card image cap" width="21rem"
                                         height="200px">
                                     <div class="card-body">
-                                        <h5 class="card-title">Honda</h5>
+                                        <h5 class="card-title">Lamborghini</h5>
                                         <p class="card-text">Some quick example text to build on the card title and
                                             make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary"
                                             style="background-color: #ffffff; border: 1px solid #000000; color: #000000;">See
                                             More >>></a>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                             <div class="col-sm">
                                 <div class="card" style="width: 21rem; border: none;">
-                                    <img class="card-img-top" src="./img/vinfast.jpg" alt="Card image cap" width="21rem"
-                                        height="200px">
+                                    <img class="card-img-top" src="./img/maserati.jpg" alt="Card image cap"
+                                        width="21rem" height="200px">
                                     <div class="card-body">
-                                        <h5 class="card-title">VinFast</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.</p>
+                                        <h5 class="card-title">Maserati</h5>
+                                        <p class="card-text">Một hãng xe lớn đến từ Italia, nổi tiếng với hàng loạt mẫu
+                                            xe sang đắt tiền,chả được dùng gì ngoài việc có rất nhiều cảnh phá xe, show
+                                            xe,như trong phim Fast and Furious...</p>
                                         <a href="#" class="btn btn-primary"
                                             style="background-color: #ffffff; border: 1px solid #000000; color: #000000;">See
                                             More >>></a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 21rem; border: none;">
+                                <!-- <div class="card" style="width: 21rem; border: none;">
                                     <img class="card-img-top" src="./img/lexus.jpg" alt="Card image cap" width="21rem"
                                         height="200px">
                                     <div class="card-body">
@@ -101,22 +102,21 @@
                                             style="background-color: #ffffff; border: 1px solid #000000; color: #000000;">See
                                             More >>></a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-sm">
                                 <div class="card" style="width: 21rem; border: none;">
-                                    <img class="card-img-top" src="./img/chev.jpg" alt="Card image cap" width="21rem"
+                                    <img class="card-img-top" src="./img/lambor.jpg" alt="Card image cap" width="21rem"
                                         height="200px">
                                     <div class="card-body">
-                                        <h5 class="card-title">Chevrolet</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and
-                                            make up the bulk of the card's content.</p>
+                                        <h5 class="card-title">Lamborghini</h5>
+                                        <p class="card-text">Những chiếc xe khá rẻ tiền và hầu hết chúng ta đều không mua nó...</p>
                                         <a href="#" class="btn btn-primary"
                                             style="background-color: #ffffff; border: 1px solid #000000; color: #000000;">See
                                             More >>></a>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 21rem; border: none;">
+                                <!-- <div class="card" style="width: 21rem; border: none;">
                                     <img class="card-img-top" src="./img/toyota.jpg" alt="Card image cap" width="21rem"
                                         height="200px">
                                     <div class="card-body">
@@ -127,7 +127,7 @@
                                             style="background-color: #ffffff; border: 1px solid #000000; color: #000000;">See
                                             More >>></a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                 </li>
@@ -203,15 +203,18 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0" id="search">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search your car " aria-label="Search" style="border-radius:0%;">
+                <input class="form-control mr-sm-2" type="search" name="searchCar" placeholder="Search your car " aria-label="Search"
+                    style="border-radius:0%;">
                 <button class="btn btn-dark my-2 my-sm-0" type="submit"
                     style="color: white;border: none;border-radius:0%;">Search</button>
             </form>
         </div>
     </nav>
-    <video autoplay loop>
-        <source src="./img/MASERATI-Levante.mp4">
+    <video loop autoplay muted id="vid">
+        <source type="video/mp4" src="./img/MASERATI-Levante.mp4">
+        </source>
     </video>
+
     <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="padding-top: 3px;">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -285,7 +288,7 @@
         </p>
         <hr class="my-4">
         <a href="#" style="text-decoration: none; color: #000000;">
-            <h2 class="display-4" style="font-family: 'Heebo', sans-serif;text-align: center;font-size: 700%;">Let's
+            <h2 class="display-4" style="text-align: center;font-size: 700%;">Let's
                 enjoy!</h2>
         </a>
     </div>
@@ -323,28 +326,24 @@
                 <form id="question" style="color: white;">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Enter email"style="border-radius:0%;">
+                        <input type="email" class="form-control" name="email" id="em" aria-describedby="emailHelp"
+                            placeholder="Enter email" style="border-radius:0%;">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                             else.</small>
                     </div>
                     <div class="form-group">
                         <label>Your question:</label>
-                        <input type="text" height="400px" class="form-control" name="keyword" id="keyword"
+                        <input type="text" height="400px" class="form-control" name="ques" id="ques"
                             placeholder="Your question" style="border-radius:0%;">
                     </div>
-                    <button type="submit" class="btn btn-light" id="form"style="border-radius:0%;">Send</button>
+                    <button type="submit" class="btn btn-light" id="form" style="border-radius:0%;">Send</button>
                 </form>
             </div>
         </div>
     </div>
     </div>
     <a href="#" class="gotobtn"><i class="fa fa-arrow-circle-up" style="font-size:48px"></i></a>
-    <!-- <script>
-        function myFunction() {
-            window.alert("Chung toi da tiep nhan cau hoi cua ban!")
-        }
-    </script> -->
+
 </body>
 
 </html>
