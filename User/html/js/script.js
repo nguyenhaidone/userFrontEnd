@@ -18,10 +18,10 @@ window.onload = () => {
         if (keySearch == 'mazda' || keySearch == 'Mazda 6' || keySearch == 'Mazda 2' || keySearch == 'Mazda 3' || keySearch == 'Mazda cx3' || keySearch == 'Mazda cx5' || keySearch == 'Mazda cx8') {
             window.location.href = "./mazda.html"
         } else {
-            if (keySearch == 'lamborghini' || keySearch == 'maserati') {
-                alert('Xin lỗi bạn, chúng tôi đang cập nhật sản phẩm này!');
+            if (keySearch == 'lamborghini') {
+                window.location.href = "./Lamborghini.html"
             } else {
-                alert('Xin lỗi bạn, chúng tôi không có sản phẩm này!');
+                alert('Xin lỗi bạn, chúng tôi chưa cập nhật sản phẩm này!');
             }
         }
         console.log(keySearch)
